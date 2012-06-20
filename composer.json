@@ -1,6 +1,6 @@
 {
-    "name": "rvdv/symfony2-quickstart",
-    "description": "Quickstart template for the Symfony 2 framework",
+    "name": "symfony/framework-standard-edition",
+    "description": "The \"Symfony Standard Edition\" distribution",
     "autoload": {
         "psr-0": { "": "src/" }
     },
