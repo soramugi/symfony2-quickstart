@@ -12,3 +12,6 @@ fi
 
 echo 'Install the needed vendors for this application.'
 $PHP composer.phar install --quiet
+
+echo 'Dump the optimized autoloader classmap for performance reasons.'
+$PHP composer.phar dump-autoload --optimize
