@@ -1,8 +1,11 @@
 /web/bundles/
 /app/bootstrap.php.cache
-/app/config/parameters.yml
 /app/cache/*
+/app/config/parameters.yml
 /app/logs/*
 /build/
 /vendor/
+/bin/
+!/bin/after_build.sh
+!/bin/after_deploy.sh
 /composer.phar
